@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+main {
+  height:100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(11, 11, 11, 0.8), rgba(11, 11, 11, 0.9)),
+              url('./img/content-couple-enjoying-concert.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* navbar styling  */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: transparent;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #147240;
+  padding-bottom: 3px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.login {
+  background: transparent;
+  color: white;
+  border: 1.5px solid white;
+}
+
+.login:hover {
+    border: 1.5px solid rgb(41, 43, 41);
+    background: #147240;
+  color: white;
+}
+
+.signup {
+  background: white;
+  color: black;
+}
+
+.signup:hover {
+  background: #147240;
+  color: white;
+}
+
+/* hero content styling */
+.hero-content{
+  margin: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.kpop img{
+  height: 400px;
+}
+
+section h4{
+  font-size: 60px;
+}
+
+.home-text h3{
+  font-size: 40px;
+}
+
+.home-text p{
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.Blog{
+  gap: 100px;
+  background-color: #147240;
+  color: white;
+  width: 150px;
+  height: 40px;
+}
+
+.Event{
+  width: 150px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-left: 20px;
+}
+
+.Blog:hover{
+  background-color: white;
+  color: black;
+}
+
+.Event:hover{
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+/* blog content styling */
+/* filter bar */
+
+.Event-content {
+  background: #111;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-bar {
+  margin-left: 10%;
+  background: #147240;
+  border: none;
+  padding: 30px 40px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 900px;
+  color: white;
+}
+
+.filter-bar form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.wrap-Event-group{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.filter-bar label {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+/* Inputs */
+.filter-bar input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  width: 220px;
+  outline: none;
+}
+
