@@ -1,11 +1,18 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #191919;
+}
+
+header {
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
   background: linear-gradient(rgba(11, 11, 11, 0.8), rgba(11, 11, 11, 0.9)),
-              url('./img/bg.png');
+              url('../img/bg.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   color: white;
 }
 
@@ -80,17 +87,16 @@ section {
   align-items: center;
   justify-content: space-around;
 }
-
-.Event-title h4{
-
+section .kpop img{
+  width: 100%;
 }
 
 .home-text h3{
-  font-size: 40px;
+  font-size: 250%;
 }
 
 .home-text p{
-  font-size: 20px;
+  font-size: 100%;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -98,16 +104,16 @@ section {
   gap: 100px;
   background-color: #147240;
   color: white;
-  width: 150px;
-  height: 40px;
+  width: 40%;
+  height: 40%;
 }
 
 .Blog{
-  width: 150px;
+  width: 40%;
   background: transparent;
   border: 1px solid white;
   color: white;
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 .Event:hover{
@@ -119,4 +125,70 @@ section {
   background-color: white;
   color: black;
   border: none;
+}
+
+.filter-bar {
+  margin-left: 10%;
+  background: #147240;
+  border: none;
+  padding: 30px 40px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 74%;
+  color: white;
+}
+
+.filter-bar form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-Event-group{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.filter-bar label {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+
+/* Inputs */
+.filter-bar input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  width: 80%;
+  outline: none;
+}
+
+.filter-bar input::placeholder{
+  color: #fff;
+}
+
+/* ==== upcoming events ===== */
+
+article .Upcoming-Events{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.Upcoming-Events h3{
+  font-size: 180%;
+}
+.filter-select{
+  background: transparent;
+  font-size: 110%;
+  margin-top: 9%;
+  margin-left: 20px;
+  border: none;
+  color: #fff;
 }

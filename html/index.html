@@ -10,7 +10,7 @@
   <header>
     <nav class="navbar">
       <div class="logo">
-        <img src="./img/logo.png" alt="Festava logo">
+        <img src="../img/logo.png" alt="Festava logo">
       </div>
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
@@ -22,22 +22,70 @@
         <button class="btn signup">Sign Up</button>
       </div>
     </nav>
-  </header>
 
-  <section>
-    <div class="kpop">
-        <img src="./img/kpop.png" alt="">
-    </div>
-    <div class="home-data">
-        <div class="home-text">
-            <h3>SBS MTV The Kpop <br> Show Ticket  Package</h3>
-            <p>Look no further! Our SBS The Show <br> are the simplest way for you <br>to experience a live Kpop recording.</p>
+    <section>
+      <div class="kpop">
+          <img src="../img/kpop.png" alt="">
+      </div>
+      <div class="home-data">
+          <div class="home-text">
+              <h3>SBS MTV The Kpop <br> Show Ticket  Package</h3>
+              <p>Look no further! Our SBS The Show <br> are the simplest way for you <br>to experience a live Kpop recording.</p>
+          </div>
+          <div class='home-buttons'>
+              <button class="btn Event">Events</button>
+              <button class="btn Blog">Blog</button>
+          </div>
+      </div>
+    </section>
+
+    <div class="filter-bar">
+      <form>
+
+        <div class="wrap-Event-group">
+          <label for="search-Event">Search Event</label>
+          <input type="text" id="search-Event" placeholder="Type event name...">
         </div>
-        <div class='home-buttons'>
-            <button class="btn Event">Events</button>
-            <button class="btn Blog">Blog</button>
+
+        <div class="wrap-blog-group">
+          <label for="Place-Event">Place</label>
+          <input type="text" id="Place-Event" placeholder="Enter location...">
         </div>
+        
+        <div class="wrap-blog-group">
+          <label for="Time-Event">Time</label>
+          <input type="text" id="Time-Event" placeholder="Select date or time...">
+        </div>
+
+      </form>
     </div>
-  </section>
+  </header>
+  
+  <article>
+    <div class="Upcoming-Events">
+      <h3>Upcoming Events</h3>
+      <div class="event-filters">
+        <select class="filter-select weekday-filter">
+          <option>Weekdays</option>
+        </select>
+        <select class="filter-select event-type-filter">
+          <option>Event Type</option>
+        </select>
+        <select class="filter-select category-filter">
+          <option>Any Category</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="card-Event">
+      <div class="wrap-card-group">
+        <div class="card-E">
+          <img src="../img/Rectangle 12-1.png" alt="">
+          <h2>2011 Super Junior SM Town Live '10 World Tour New York City</h2>
+          <p>Directly seated and inside for you to enjoy the show.</p>
+        </div>
+      </div>
+    </div>
+  </article>
 </body>
 </html>
