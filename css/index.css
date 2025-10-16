@@ -192,3 +192,157 @@ article .Upcoming-Events{
   border: none;
   color: #fff;
 }
+
+/* ======= Event cards ========= */
+.wrap-card-group{
+  margin-left: 5%;
+}
+
+.def-card {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.wrap-card-group .card-E{
+  height: 13em;
+  max-width: 70%;
+  background-color: #222222;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.card-E .event-details{
+  margin: 2%;
+}
+
+.event-details h2{
+  font-size: 150%;
+}
+
+.card-E .date-event{
+  margin: 3%;
+}
+
+.date-event h6{
+  font-size: 100%;
+  color: #147240;
+}
+.date-event h4{
+  font-size: 200%;
+}
+
+/* ======== brands ========== */
+
+.join-brand h2{
+  color: #139952;
+  font-size: 200%;
+  text-align: center;
+}
+
+.join-brand p{
+  color: #6A6A6A;
+  font-size: 100%;
+  text-align: center;
+}
+
+.images{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.join-brand .images img{
+  width: 8%;
+}
+
+/* ========== Blog ============ */
+
+.Blog-section h1{
+  color: #147240;
+  text-align: center;
+}
+
+.Blog-section .wrap-blog-cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Blog-section .Blog-cards{
+  width: 27.3%;
+}
+
+.Blog-section .Blog-cards h2{
+  color: #139952;
+  font-size: 130%;
+}
+
+.Blog-section .Blog-cards p{
+  font-size: 100%;
+}
+
+.Blog-section .Blog-cards h6{
+  color: #A5A5A5;
+  font-size: 80%;
+  margin-top: 2%;
+}
+
+.Blog-section button{
+  cursor: pointer;
+  margin-left: 45%;
+  background: transparent;
+  padding: 1%;
+  border: 1.5px solid #147240;
+  border-radius: 20px;
+  color: #147240;
+}
+
+/* ========= footer =============== */
+
+footer {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+footer .part-1{
+  width: 20%;
+}
+
+footer .part-1 .footer-logo{
+  width: 60%;
+  margin-bottom: 10%;
+}
+
+footer .part-1 p{
+  font-size: 60%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+footer .part-1 img{
+  width: 10%;
+}
+
+footer .part-2{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+footer .part-2 h3{
+  font-size: 100%;
+}
+
+footer .part-2 ul{
+  list-style: none;
+}
+
+footer .part-2 li{
+  margin-left: -45%;
+}
+
+footer .part-2 a{
+  text-decoration: none;
+  font-size: 70%;
+  color: white;
+}
