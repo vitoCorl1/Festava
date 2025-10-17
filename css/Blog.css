@@ -5,19 +5,17 @@ body {
   background-color: #191919;
 }
 
-main {
-  height:100vh;
+header {
+  height: 100vh;
   margin: 0;
   font-family: "Poppins", sans-serif;
   background: linear-gradient(rgba(11, 11, 11, 0.8), rgba(11, 11, 11, 0.9)),
-              url('../img/content-couple-enjoying-concert.webp');
+              url('../img/Rectangle\ 13.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   color: white;
 }
 
-/* navbar styling  */
 .navbar {
   display: flex;
   align-items: center;
@@ -84,14 +82,16 @@ main {
   color: white;
 }
 
-/* hero content styling */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .hero-content{
   margin: 70px;
   display: flex;
   justify-content: space-around;
-}
-.kpop img{
-  height: 400px;
 }
 
 section h4{
@@ -99,90 +99,170 @@ section h4{
 }
 
 .home-text h3{
-  font-size: 40px;
+  font-size: 250%;
 }
 
 .home-text p{
-  font-size: 20px;
+  font-size: 100%;
   font-family:'Courier New', Courier, monospace;
 }
 
-.Blog{
+.Event{
   gap: 100px;
   background-color: #147240;
   color: white;
-  width: 150px;
-  height: 40px;
+  width: 40%;
+  height: 40%;
 }
 
-.Event{
-  width: 150px;
+.Blog{
+  width: 40%;
   background: transparent;
   border: 1px solid white;
   color: white;
-  margin-left: 20px;
-}
-
-.Blog:hover{
-  background-color: white;
-  color: black;
+  margin-left: 2%;
 }
 
 .Event:hover{
   background-color: white;
   color: black;
+}
+
+.Blog:hover{
+  background-color: white;
+  color: black;
   border: none;
 }
 
-/* blog content styling */
-/* filter bar */
 
-.Event-content {
-  background: #111;
-  padding: 60px 0;
+.Blog-section h1{
+  color: #147240;
+  text-align: center;
+}
+
+.Blog-section .wrap-blog-cards{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 
-.filter-bar {
-  margin-left: 10%;
-  background: #147240;
-  border: none;
-  padding: 30px 40px;
-  border-radius: 20px;
-  width: 80%;
-  max-width: 900px;
-  color: white;
+.Blog-section .Blog-cards{
+  width: 27.3%;
 }
 
-.filter-bar form {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
+.Blog-section .Blog-cards h2{
+  color: #139952;
+  font-size: 130%;
 }
 
-.wrap-Event-group{
-  display: flex;
-  flex-direction: column;
+.Blog-section .Blog-cards p{
+  font-size: 100%;
 }
 
-/* Labels */
-.filter-bar label {
-  font-size: 12px;
-  font-weight: 500;
-  margin-right: 10px;
-  color: #ffffff;
+.Blog-section .Blog-cards h6{
+  color: #A5A5A5;
+  font-size: 80%;
+  margin-top: 2%;
 }
 
-/* Inputs */
-.filter-bar input {
+article button{
+  cursor: pointer;
+  margin-left: 45%;
   background: transparent;
-  border: none;
-  border-bottom: 1px solid white;
+  padding: 1%;
+  border: 1.5px solid #147240;
+  border-radius: 20px;
+  color: #147240;
+  margin-bottom: 5%;
+}
+
+
+/* ========= footer =============== */
+
+footer {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .part-1{
+  margin-top: 2%;
+  width: 20%;
+}
+
+footer .part-1 .footer-logo{
+  width: 60%;
+  margin-bottom: 10%;
+}
+
+footer .part-1 p{
+  font-size: 60%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+footer .part-1 img{
+  width: 10%;
+}
+
+footer .part-2{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+footer .part-2 h3{
+  font-size: 100%;
+}
+
+footer .part-2 ul{
+  list-style: none;
+}
+
+footer .part-2 li{
+  margin-left: -45%;
+}
+
+footer .part-2 a{
+  text-decoration: none;
+  font-size: 70%;
   color: white;
-  padding: 10px 15px;
-  font-size: 14px;
-  width: 220px;
+}
+
+footer .part-4{
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 20%;
+}
+
+footer .part-4 p{
+  font-size: 60%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.input-container {
+  position: relative;
+  width: 110%;
+  height: 20%;
+}
+
+.input-container input {
+  width: 100%;
+  padding-right: 40px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
   outline: none;
 }
+
+.input-container button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: #147240;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 20px;
+}   

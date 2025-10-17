@@ -90,9 +90,6 @@ main {
   display: flex;
   justify-content: space-around;
 }
-.kpop img{
-  height: 400px;
-}
 
 section h4{
   font-size: 60px;
